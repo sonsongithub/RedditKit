@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		000271D695B248C6B37C4AC4 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD7909B16B44DE7A9159C04 /* libPods-ios.a */; };
+		4B09900219475F7B00191DC1 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09900119475F7B00191DC1 /* AuthenticationManager.swift */; };
 		4B2048D217F4C6020009BFF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2048D117F4C6020009BFF6 /* Foundation.framework */; };
 		4B2048D417F4C6020009BFF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2048D317F4C6020009BFF6 /* CoreGraphics.framework */; };
 		4B2048D617F4C6020009BFF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2048D517F4C6020009BFF6 /* UIKit.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B09900119475F7B00191DC1 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		4B2048CE17F4C6020009BFF6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2048D117F4C6020009BFF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4B2048D317F4C6020009BFF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 				4B68F9E119469628007A5E62 /* LinkTitleLabel.swift */,
 				4BC808101825AFEE0070B628 /* AuthenticationManager.h */,
 				4BC808111825AFEE0070B628 /* AuthenticationManager.m */,
+				4B09900119475F7B00191DC1 /* AuthenticationManager.swift */,
 				4B2048E917F4C6020009BFF6 /* Images.xcassets */,
 				4B2048D817F4C6020009BFF6 /* Supporting Files */,
 				4B68F9E019469627007A5E62 /* Example-Bridging-Header.h */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B20490817F4C6350009BFF6 /* FrontPageViewController.m in Sources */,
+				4B09900219475F7B00191DC1 /* AuthenticationManager.swift in Sources */,
 				4BB0B6DD180652D20023BB24 /* BrowserViewController.m in Sources */,
 				4B723EDD1809A9C600E44AC1 /* LinkTableViewCell.m in Sources */,
 				4B2048E217F4C6020009BFF6 /* AppDelegate.m in Sources */,
