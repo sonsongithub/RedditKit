@@ -27,7 +27,7 @@
 #define METADATA_IMAGE_COLOR [UIColor colorWithRed:0.87 green:0.87 blue:0.87 alpha:1.0]
 
 #import "LinkTableViewCell.h"
-#import "LinkTitleLabel.h"
+#import "Example-Swift.h"
 
 @interface LinkTableViewCell ()
 

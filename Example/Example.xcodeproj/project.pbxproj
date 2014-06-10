@@ -16,10 +16,10 @@
 		4B2048E217F4C6020009BFF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2048E117F4C6020009BFF6 /* AppDelegate.m */; };
 		4B2048EA17F4C6020009BFF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2048E917F4C6020009BFF6 /* Images.xcassets */; };
 		4B20490817F4C6350009BFF6 /* FrontPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B20490717F4C6350009BFF6 /* FrontPageViewController.m */; };
+		4B68F9E219469628007A5E62 /* LinkTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68F9E119469628007A5E62 /* LinkTitleLabel.swift */; };
 		4B723EDD1809A9C600E44AC1 /* LinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B723EDC1809A9C500E44AC1 /* LinkTableViewCell.m */; };
 		4BB0B6DD180652D20023BB24 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0B6DC180652D20023BB24 /* BrowserViewController.m */; };
 		4BC808121825AFEE0070B628 /* AuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC808111825AFEE0070B628 /* AuthenticationManager.m */; };
-		4BC8081518270FF80070B628 /* LinkTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC8081418270FF80070B628 /* LinkTitleLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,14 +37,14 @@
 		4B2048F017F4C6030009BFF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4B20490617F4C6350009BFF6 /* FrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontPageViewController.h; sourceTree = "<group>"; };
 		4B20490717F4C6350009BFF6 /* FrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontPageViewController.m; sourceTree = "<group>"; };
+		4B68F9E019469627007A5E62 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B68F9E119469628007A5E62 /* LinkTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkTitleLabel.swift; sourceTree = "<group>"; };
 		4B723EDB1809A9C500E44AC1 /* LinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkTableViewCell.h; sourceTree = "<group>"; };
 		4B723EDC1809A9C500E44AC1 /* LinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkTableViewCell.m; sourceTree = "<group>"; };
 		4BB0B6DB180652D20023BB24 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
 		4BB0B6DC180652D20023BB24 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		4BC808101825AFEE0070B628 /* AuthenticationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationManager.h; sourceTree = "<group>"; };
 		4BC808111825AFEE0070B628 /* AuthenticationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationManager.m; sourceTree = "<group>"; };
-		4BC8081318270FF80070B628 /* LinkTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkTitleLabel.h; sourceTree = "<group>"; };
-		4BC8081418270FF80070B628 /* LinkTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkTitleLabel.m; sourceTree = "<group>"; };
 		6AD7909B16B44DE7A9159C04 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D0CE0DEABE4AFA951E5C4A /* Pods-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.xcconfig"; path = "Pods/Pods-ios.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,12 +105,12 @@
 				4BB0B6DC180652D20023BB24 /* BrowserViewController.m */,
 				4B723EDB1809A9C500E44AC1 /* LinkTableViewCell.h */,
 				4B723EDC1809A9C500E44AC1 /* LinkTableViewCell.m */,
-				4BC8081318270FF80070B628 /* LinkTitleLabel.h */,
-				4BC8081418270FF80070B628 /* LinkTitleLabel.m */,
+				4B68F9E119469628007A5E62 /* LinkTitleLabel.swift */,
 				4BC808101825AFEE0070B628 /* AuthenticationManager.h */,
 				4BC808111825AFEE0070B628 /* AuthenticationManager.m */,
 				4B2048E917F4C6020009BFF6 /* Images.xcassets */,
 				4B2048D817F4C6020009BFF6 /* Supporting Files */,
+				4B68F9E019469627007A5E62 /* Example-Bridging-Header.h */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -225,13 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC8081518270FF80070B628 /* LinkTitleLabel.m in Sources */,
 				4B20490817F4C6350009BFF6 /* FrontPageViewController.m in Sources */,
 				4BB0B6DD180652D20023BB24 /* BrowserViewController.m in Sources */,
 				4B723EDD1809A9C600E44AC1 /* LinkTableViewCell.m in Sources */,
 				4B2048E217F4C6020009BFF6 /* AppDelegate.m in Sources */,
 				4B2048DE17F4C6020009BFF6 /* main.m in Sources */,
 				4BC808121825AFEE0070B628 /* AuthenticationManager.m in Sources */,
+				4B68F9E219469628007A5E62 /* LinkTitleLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -350,8 +351,11 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -362,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -375,8 +380,10 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				INFOPLIST_FILE = "Example/Example-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
