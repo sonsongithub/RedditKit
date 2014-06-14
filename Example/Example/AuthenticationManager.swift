@@ -41,25 +41,22 @@ class AuthenticationManager {
             let password: String = alertView.textFieldAtIndex(1).text
             
             if countElements(username) == 0 || countElements(password) == 0 {
-                return;
+                return
             }
             
-            [[RKClient sharedClient] signInWithUsername:username password:password completion:^(NSError *error) {
+            RKClient.sharedClient().signInWithUsername(username, password: password) { (error: NSError!) in
                 if (error)
                 {
-                UIAlertView *errorAlertView = [weakSelf signInAlertView];
-                errorAlertView.message = error.localizedFailureReason;
-                
-                [errorAlertView show];
+                    let errorAlertView = self.signInAlertView()
+                    errorAlertView.message = error.localizedFailureReason;
+                    
+                    errorAlertView.show()
                 }
                 else
                 {
-                if (self.authenticationSuccessBlock)
-                {
-                dispatch_async(dispatch_get_main_queue(), self.authenticationSuccessBlock);
+                    dispatch_async(dispatch_get_main_queue(), self.authenticationSuccessBlock);
                 }
-                }
-            }];
+            }
         }
     }
 }
