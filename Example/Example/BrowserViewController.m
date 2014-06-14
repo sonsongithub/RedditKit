@@ -21,7 +21,8 @@
 // THE SOFTWARE.
 
 #import "BrowserViewController.h"
-#import "AuthenticationManager.h"
+
+#import "Example-Swift.h"
 
 @interface BrowserViewController ()
 

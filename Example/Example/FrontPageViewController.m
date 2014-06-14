@@ -22,10 +22,10 @@
 
 #import "FrontPageViewController.h"
 
-#import "AuthenticationManager.h"
 #import "BrowserViewController.h"
 #import "LinkTableViewCell.h"
 
+#import "Example-Swift.h"
 #import <RedditKit/RedditKit.h>
 
 static NSString * const kLinkCellReuseIdentifier = @"kLinkCellReuseIdentifier";

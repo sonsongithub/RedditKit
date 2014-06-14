@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Sam Symons. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class AuthenticationManager {
