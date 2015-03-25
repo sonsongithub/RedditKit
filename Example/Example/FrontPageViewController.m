@@ -294,9 +294,17 @@ static NSString * const kLinkCellReuseIdentifier = @"kLinkCellReuseIdentifier";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     RKLink *link = self.links[indexPath.row];
-    BrowserViewController *browserViewController = [[BrowserViewController alloc] initWithLink:link];
-    
-    [[self navigationController] pushViewController:browserViewController animated:YES];
+//    BrowserViewController *browserViewController = [[BrowserViewController alloc] initWithLink:link];
+	[[RKClient sharedClient] commentsForLink:link
+								  completion:^(NSArray *collection, RKPagination *pagination, NSError *error) {
+									  NSLog(@"%@",collection);
+									  for (id obj in collection) {
+										  NSLog(@"%@", obj);
+									  }
+								  }];
+//	- (NSURLSessionDataTask *)commentsForLinkWithIdentifier:(NSString *)linkIdentifier completion:(RKListingCompletionBlock)completion;
+	
+//    [[self navigationController] pushViewController:browserViewController animated:YES];
 }
 
 #pragma mark - UIScrollViewDelegate
